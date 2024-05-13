@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra de Ingresso - Centro de Eventos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+            color: #333;
+        }
+
+        header {
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 50px 20px;
+        }
+
+        section#tickets {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        section#tickets h2 {
+            color: #fff;
+        }
+
+        section#tickets form {
+            margin-top: 20px;
+        }
+
+        section#tickets form label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        section#tickets form input[type="text"],
+        section#tickets form input[type="email"],
+        section#tickets form select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        section#tickets form button {
+            padding: 10px 20px;
+            background-color: #fff;
+            color: #000;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        section#tickets form button:hover {
+            background-color: #ddd;
+        }
+
+        footer {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Compra de Ingresso - Centro de Eventos</h1>
+        <nav>
+            <ul>
+                <li><a href="file:///home/escola/Documentos/andre%20centro/index.html">Página Inicial</a></li>
+                <li><a href="file:///home/escola/Documentos/andre%20centro/agenda.html">agenda de eventos</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="file:///home/escola/Documentos/andre%20centro/servi%C3%A7os.html">Serviços</a></li>
+                <li><a href="file:///home/escola/Documentos/andre%20centro/contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="tickets">
+        <h2>Compra de Ingresso</h2>
+        <form action="#" method="post">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="event">Selecione o Evento:</label>
+            <select id="event" name="event">
+                <option value="conferencia">Conferência Internacional de Negócios</option>
+                <option value="festival">Festival de Flamenco</option>
+                <option value="casamento">Casamento Espanhol Tradicional</option>
+            </select>
+            <button type="submit">Comprar Ingresso</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Centro de Eventos. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

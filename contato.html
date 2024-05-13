@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Centro de Eventos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Centro de Eventos Espamhol</h1>
+        <nav>
+            <ul>
+                <li><a href="file:///home/escola/Documentos/andre%20centro/agenda.html">Agenda de Eventos</a></li>
+                <li><a href="file:///home/escola/Documentos/andre%20centro/compra%20de%20ingresso.html">Comprar Ingresso</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="file:///home/escola/Documentos/andre%20centro/servi%C3%A7os.html">Serviços</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="contact">
+        <div class="container">
+            <h2>Contato</h2>
+            <p>Entre em contato conosco para reservas e mais informações.</p>
+            <div class="contact-details">
+                <p>Email: info@centrodeeventos.com</p>
+                <p>Telefone: (XX) XXXX-XXXX</p>
+            </div>
+            <form action="#" method="post">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Centro de Eventos. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
+<style>body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section#contact {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact-details {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+</style>
